@@ -383,7 +383,11 @@ body {
 
 /* Services Section */
 .services {
-  
+  position:relative;
+  background-image: url('images/last2.jpeg');
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 39% 100%; /* Only right half gets image */
   text-align: left;
   padding: 60px 20px;
   background-color: #adf887;
