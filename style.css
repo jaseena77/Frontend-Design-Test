@@ -933,7 +933,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 0.5rem;
+    gap: 1.5rem;
     margin-top: 0;
     padding-top: 0;
   }
@@ -990,41 +990,5 @@ body {
 
   .contact {
     margin-top: 1rem;
-  }
-}
-@media screen and (max-width: 768px) {
-  header {
-    padding: 1rem;
-  }
-
-  .nav-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.5rem;
-  }
-
-  .nav-links {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    gap: 0.5rem;
-    margin-top: 0.5rem;
-  }
-
-  .nav-links a {
-    display: block;
-    padding: 0.3rem 0;
-    font-size: 1rem;
-  }
-
-  .contact {
-    margin-top: 0.5rem;
-  }
-
-  /* This ensures no hidden overflow causes white gap */
-  .hero {
-    margin-top: 0 !important;
-    padding-top: 0 !important;
   }
 }
