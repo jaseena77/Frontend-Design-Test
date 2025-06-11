@@ -63,6 +63,9 @@ header {
 .nav-links a:hover {
   color: #1a8435;
 }
+.nav-links .arrow{
+  font: weight 50%;
+}
 .contact {
   display: flex;
   align-items: center;
