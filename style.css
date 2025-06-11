@@ -964,3 +964,31 @@ body {
     margin-top: 0.5rem;
   }
 }
+@media screen and (max-width: 768px) {
+  header {
+    padding: 1rem 1rem !important;
+  }
+
+  .nav-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    width: 100%;
+  }
+
+  .nav-links a {
+    display: block;
+    padding: 0.4rem 0;
+    font-size: 1rem;
+  }
+
+  .contact {
+    margin-top: 1rem;
+  }
+}
