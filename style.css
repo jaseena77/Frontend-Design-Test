@@ -870,3 +870,31 @@ body {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+@media screen and (max-width: 480px) {
+  .image-wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img,
+  .top-left,
+  .top-right,
+  .bottom-right {
+    position: static;
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: 1rem;
+    box-shadow: none;
+  }
+
+  .experience-box {
+    position: static;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+}
